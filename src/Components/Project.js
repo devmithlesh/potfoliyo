@@ -11,10 +11,10 @@ function Projects() {
     return (
         <div>
             <section className="bg-gray-900 text-gray-100" id="projects">
-                <div className="container mx-auto py-20 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
+                <div className="container mx-auto py-28 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
                     <h1 className="text-3xl font-bold text-gray-100 text-center mb-1"><span className="text-yellow-400">My</span> Projects</h1>
                     <div className="w-full h-px bg-gray-800"></div>
-                    <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-8 pt-10">
+                    <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10">
                         <div>
                             <img src={img1} alt="Dribble Desigen" className="bg-gray-200 py-1 px-1 img-box" />
                             <a href="https://fervent-fermi-c83da0.netlify.app" className="text-xs text-gray-300 border-p">Clone of Tailblocks Desigen</a>
@@ -47,10 +47,7 @@ function Projects() {
                             <img src={img8} alt="" className="bg-gray-200 py-1 px-1 img-box" />
                             <a href="https://house-rental-website-by-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p">Rentail website</a>
                         </div>
-                        <div>
-                            <img src={img9} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href="https://unruffled-volhard-11364e.netlify.app/" className="text-xs text-gray-300 border-p">ShibaToken</a>
-                        </div>
+                      
                     </div>
                 </div>
             </section>
