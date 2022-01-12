@@ -5,7 +5,6 @@ import img10 from '../Images/11224.jpeg';
 import img11 from '../Images/11.jpeg';
 import img12 from '../Images/12.jpeg';
 import img13 from '../Images/13.jpeg';
-import img14 from '../Images/14.jpeg';
 import img16 from '../Images/16.jpeg';
 function Achivements() {
     return (

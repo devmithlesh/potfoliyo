@@ -6,7 +6,6 @@ import img5 from '../Images/5.jpg';
 import img6 from '../Images/6.jpg';
 import img7 from '../Images/7.png';
 import img8 from '../Images/8.png';
-import img9 from '../Images/9.png';
 function Projects() {
     return (
         <div>
