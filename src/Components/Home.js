@@ -3,7 +3,7 @@ function Home({ showMenu, setShowMenu }) {
         <div>
             <section className="bg-gray-900 text-gray-100" id="home-1">
                 <div className="container mx-auto py-32">
-                    <div className="text-gray-100 text-xl absolute right-4 top-4 block sm:hidden lg:hidden md:hidden 2xl:hidden z-50" onClick={() => setShowMenu(!showMenu)}> {showMenu === true ? <i className="fas fa-window-close"></i> : <i className="far fa-bars"></i>}</div>
+                    <div className="text-gray-100 text-xl fixed right-4 top-4  block sm:hidden md:hidden lg:hidden z-50" onClick={() => setShowMenu(!showMenu)}> {showMenu === true ? <i className="fas fa-window-close"></i> : <i className="far fa-bars"></i>}</div>
                     <div className=" text-gray-100 px-10 sm:ml-10 lg: md:ml-10 lg:ml-10 ml-0 py-3 sm:pl-0 md:pl-80 lg:pl-80">
                         <h2 className="text-xl">HI THERE !</h2>
                         <h1 className="text-4xl my-2 font-bold">I'M Mithlesh <span className="text-yellow-400">Nirmal</span></h1>

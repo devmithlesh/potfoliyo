@@ -1,8 +1,8 @@
 import Img from '../Images/img.jpeg';
 function Menu({ setShowMenu }) {
     return (
-        <div id="home" className="md:block lg:block 2xl:block">
-            <div className="sm:w-72 md:w-72 lg:w-72 2xl:w-72 w-full bg-gray-800 flex justify-center flex-col items-center py-6 h-screen fixed">
+        <div id="home" className="md:block lg:block 2xl:block ">
+            <div className="sm:w-72 md:w-72 lg:w-72 2xl:w-72 w-full bg-gray-800 flex justify-center flex-col items-center py-6 h-screen fixed z-50">
                 <img src={Img} alt="Mithlesh"
                     className="image-logo-menu" />
                 <h3 className="text-white text-2xl mt-1 font-bold">Mithlesh <span className="text-yellow-400">Nirmal</span></h3>
