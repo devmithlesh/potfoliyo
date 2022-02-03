@@ -11,7 +11,7 @@ function Contact() {
                             <p className="my-4 flex text-sm"><i className="fas fa-envelope mr-2 text-yellow-400 text-base"></i>mithleshnirmal786123@gmail.com</p>
                             <p className="my-4 text-sm"><i className="fas fa-mobile-alt text-yellow-400 text-lg mr-2"></i>+918196****06</p>
                             <p className="my-4 text-sm"><i className="fas fa-phone text-yellow-400 text-lg mr-2"></i>+111-101-3**1</p>
-                            <p className="my-4 text-sm"><i className="fas fa-map-pin text-yellow-400 text-lg mr-2"></i>Punjab, India 144002</p>
+                            <p className="my-4 text-sm"><i className="fas fa-map-pin text-yellow-400 text-lg mr-2"></i>Punjab, India 144001</p>
                         </div>
                         <form className="sm:w-1/2 md:w-1/2 lg:w-1/2">
                             <input type="text" placeholder="Name" className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="username" required/>
