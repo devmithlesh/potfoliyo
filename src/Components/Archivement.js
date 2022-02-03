@@ -2,10 +2,10 @@ import img7 from '../Images/11221.jpeg';
 import img8 from '../Images/11222.jpeg';
 import img9 from '../Images/11223.jpeg';
 import img10 from '../Images/11224.jpeg';
-import img11 from '../Images/11.jpeg';
-import img12 from '../Images/12.jpeg';
+import img11 from '../Images/11.jpg';
+import img12 from '../Images/12.jpg';
 import img13 from '../Images/13.jpeg';
-import img16 from '../Images/16.jpeg';
+import img16 from '../Images/16.jpg';
 function Achivements() {
     return (
         <div>
@@ -36,15 +36,15 @@ function Achivements() {
                         </div>
                         <div>
                             <img src={img16} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img16} className="text-xs text-gray-300 border-p">First Prize In IT Quiz</a>
+                            <a href={img16} className="text-xs text-gray-300 border-p">React JS Beginner Level</a>
                         </div>
                         <div>
                             <img src={img11} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img11} className="text-xs text-gray-300 border-p">CorelDraw and Adobe Photoshop</a>
+                            <a href={img11} className="text-xs text-gray-300 border-p">Tailwind css</a>
                         </div>
                         <div>
                             <img src={img12} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img12} className="text-xs text-gray-300 border-p">Fundamentals of Digital Markiting</a>
+                            <a href={img12} className="text-xs text-gray-300 border-p">GitHub</a>
                         </div>
                     </div>
                 </div>
