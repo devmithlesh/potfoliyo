@@ -15,7 +15,7 @@ function About() {
                             <p className="my-4">Qualification<span className="text-yellow-400">: BCA</span></p>
                             <p className="my-4">Post<span className="text-yellow-400">: Front End Developer</span></p>
                             <p className="my-4 mb-4">Language<span className="text-yellow-400">: Hindi / English</span></p>
-                            <a href="https://www.linkedin.com/in/mithlesh-nirmal-57958a195" target="https://www.linkedin.com/in/mithlesh-nirmal-57958a195" className="py-2 px-4 bg-gray-800 rounded-full text-sm hover:bg-yellow-400">Download CV <i
+                            <a href="https://drive.google.com/file/d/1NEEkkrsD3eYeLGqJ5U-DRuqKuLxotat5/view?usp=sharing" target="https://drive.google.com/file/d/1NEEkkrsD3eYeLGqJ5U-DRuqKuLxotat5/view?usp=sharing" className="py-2 px-4 bg-gray-800 rounded-full text-sm hover:bg-yellow-400">Download CV <i
                                 className="fas fa-arrow-to-bottom"></i></a>
                         </div>
                         <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 sm:grid-rows-2 md:grid-rows-2 lg:grid-rows-2 grid-rows-1 gap-8 text-center">
