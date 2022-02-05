@@ -34,7 +34,7 @@ function About() {
                                 <p className="text-sm">Happy Coustomers</p>
                             </div>
                             <a href="#Achivements"><div className="bg-gray-800 py-12 px-4 flex flex-col justify-center items-center rounded transform hover:scale-125 ease-out duration-700 ">
-                                <span className="text-yellow-400 text-3xl">9+</span>
+                                <span className="text-yellow-400 text-3xl">8+</span>
                                 <p className="text-sm">Certificates</p>
                             </div></a>
                         </div>
