@@ -16,7 +16,7 @@ function Contact() {
                         <form className="sm:w-1/2 md:w-1/2 lg:w-1/2">
                             <input type="text" placeholder="Name" className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="username" required/>
                             <input type="email" placeholder="Email" className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="email" required/>
-                            <input type="text" placeholder="Project Name" className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="project" />
+                            <input type="text" placeholder="Phone No." className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="mobile" />
                             <textarea placeholder="Message..." className="bg-gray-800 my-3 w-full py-2 px-2 text-xs h-20" name="message"></textarea>
                             <button className="text-xs py-2 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">Send <i className="fas fa-paper-plane"></i></button>
                         </form>

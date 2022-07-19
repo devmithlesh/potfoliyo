@@ -36,7 +36,7 @@ function Projects() {
                         </div>
                         <div>
                             <img src={img6} alt="potfoliyo-mithlesh" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href="https://potfoliyo-mithlesh-by-html-css.netlify.app/" className="text-xs text-gray-300 border-p">Clone of DesignX Desigen</a>
+                            <a href="https://potfoliyo-mithlesh-by-html-css.netlify.app/" className="text-xs text-gray-300 border-p">First Potfoliyo</a>
                         </div>
                         <div>
                             <img src={img7} alt="" className="bg-gray-200 py-1 px-1 img-box" />
