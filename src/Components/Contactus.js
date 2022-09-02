@@ -1,4 +1,32 @@
+import React from "react";
 function Contact() {
+
+    const [formData, setFormData] = React.useState(
+        {
+            fullName: "",
+            email: "",
+            phoneno: "",
+            textBox: ""
+        }
+    )
+
+    function handleChange(event) {
+        const { name, value, type, checked } = event.target
+        setFormData(prevFormData => {
+            return {
+                ...prevFormData,
+                [name]: type === "checkbox" ? checked : value
+            }
+        })
+    }
+
+    function handleSubmit(event) {
+        event.preventDefault()
+        // submitToApi(formData)
+        console.log(formData)
+    }
+
+
     return (
         <div>
             <section className="bg-gray-900 text-gray-100" id="contact">
@@ -13,12 +41,17 @@ function Contact() {
                             <p className="my-4 text-sm"><i className="fas fa-phone text-yellow-400 text-lg mr-2"></i>+111-101-3**1</p>
                             <p className="my-4 text-sm"><i className="fas fa-map-pin text-yellow-400 text-lg mr-2"></i>Punjab, India 144001</p>
                         </div>
-                        <form className="sm:w-1/2 md:w-1/2 lg:w-1/2">
-                            <input type="text" placeholder="Name" className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="username" required/>
-                            <input type="email" placeholder="Email" className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="email" required/>
-                            <input type="text" placeholder="Phone No." className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="mobile" />
-                            <textarea placeholder="Message..." className="bg-gray-800 my-3 w-full py-2 px-2 text-xs h-20" name="message"></textarea>
-                            <button className="text-xs py-2 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">Send <i className="fas fa-paper-plane"></i></button>
+                        <form className="sm:w-1/2 md:w-1/2 lg:w-1/2" onClick={handleSubmit}>
+                            <input type="text" placeholder="FullName" onChange={handleChange}
+                                className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="fullName" value={formData.fullName} required />
+                            <input type="email" placeholder="Email" onChange={handleChange}
+                                className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="email" value={formData.email} required />
+                            <input type="tel" placeholder="Phone No." onChange={handleChange}
+                                className="bg-gray-800 my-3 w-full py-2 px-2 text-xs" name="phoneno" value={formData.phoneno} />
+                            <textarea placeholder="Message..." onChange={handleChange}
+                                className="bg-gray-800 my-3 w-full py-2 px-2 text-xs h-20" name="textBox" value={formData.textBox}></textarea>
+                            <button
+                                className="text-xs py-2 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">Send <i className="fas fa-paper-plane"></i></button>
                         </form>
                     </div>
                 </div>

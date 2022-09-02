@@ -6,7 +6,9 @@ import img5 from '../Images/5.jpg';
 import img6 from '../Images/6.png';
 import img7 from '../Images/7.png';
 import img8 from '../Images/8.png';
+import React, { useState } from 'react';
 function Projects() {
+    const [proshow, setshow] = useState(true)
     return (
         <div>
             <section className="bg-gray-900 text-gray-100" id="projects">
@@ -46,8 +48,33 @@ function Projects() {
                             <img src={img8} alt="" className="bg-gray-200 py-1 px-1 img-box" />
                             <a href="https://house-rental-website-by-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p" target="_blank">Rentail website</a>
                         </div>
-                      
                     </div>
+                    <button onClick={() => setshow(!proshow)} className="w-full 
+                    bg-gray-800 text-left text-yellow-400 pl-2 py-1 text-sm mt-4 ">
+                        {proshow ? <p className='text-gray-100 '>
+                            <span className='text-yellow-400'>Show</span> More <i class="fa-sharp fa-solid fa-arrow-up"></i></p> : <p className='text-gray-100'>
+                            <span className='text-yellow-400'>Hidden</span> More <i class="fa-solid fa-arrow-down"></i></p>}
+                    </button>
+                    {
+                        !proshow ? <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10">
+                            <div>
+                                <img src={img5} alt="Microsoft-design" className="bg-gray-200 py-1 px-1 img-box" />
+                                <a href="https://adoring-ptolemy-0c210a.netlify.app" className="text-xs text-gray-300 border-p" target="_blank">Clone of Microsoft Desigen</a>
+                            </div>
+                            <div>
+                                <img src={img6} alt="potfoliyo-mithlesh" className="bg-gray-200 py-1.5 px-1 img-box" />
+                                <a href="https://food-ordering-hub-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p " target="_blank">First Potfoliyo</a>
+                            </div>
+                            <div>
+                                <img src={img7} alt="" className="bg-gray-200 py-1 px-1 img-box" />
+                                <a href="https://foot-by-foot-project.netlify.app/" className="text-xs text-gray-300 border-p" target="_blank">Foot By Foot</a>
+                            </div>
+                            <div>
+                                <img src={img8} alt="" className="bg-gray-200 py-1 px-1 img-box" />
+                                <a href="https://house-rental-website-by-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p" target="_blank">Rentail website</a>
+                            </div>
+                        </div> : null
+                    }
                 </div>
             </section>
         </div>

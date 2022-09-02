@@ -1,0 +1,20 @@
+.type-animation {
+    width: 0ch;
+    overflow: hidden;
+    margin-left: 3px;
+    white-space: nowrap;
+    animation: text 5s steps(9) infinite;
+    border-right: 2px solid #fff;
+    transition: 2s;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 9ch;
+    }
+
+}

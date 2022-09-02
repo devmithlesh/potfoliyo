@@ -10,49 +10,49 @@ function Education() {
                             <i className="fas fa-graduation-cap bg-yellow-400"></i>
                             <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">2017</span>
                             <h3 className="text-base font-bold py-2">10th Class</h3>
-                            <p className="text-xs">M.S.Memorial Model School, Jalandhar (Under PSEB)</p>
+                            <p className="text-xs">M.S.Memorial Model School, Jalandhar (Under : PSEB)</p>
                         </div>
                         <div className="box-achiv">
                             <i className="fas fa-graduation-cap bg-yellow-400"></i>
                             <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">2019</span>
                             <h3 className="text-base font-bold py-2">12th Class</h3>
-                            <p className="text-xs">Govt. Model Senior Secondary School P.A.P.Campus, Jalandhar (Under PSEB)</p>
+                            <p className="text-xs">Govt. Model Ser Sec School P.A.P Campus (Under : PSEB)</p>
                         </div>
                         <div className="box-achiv">
                             <i className="fas fa-graduation-cap bg-yellow-400"></i>
                             <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">2022</span>
                             <h3 className="text-base font-bold py-2">BCA Course</h3>
-                            <p className="text-xs">Lyallpur Khalsa College Technical Campus, Jalandhar, Punjab (Under PTU)</p>
+                            <p className="text-xs">Lyallpur Khalsa College Technical Campus, Punjab (Under : PTU)</p>
                         </div>
                         <div className="box-achiv">
                             <i className="fas fa-graduation-cap bg-yellow-400"></i>
                             <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">2021</span>
                             <h3 className="text-base font-bold py-2">HTML Course</h3>
-                            <p className="text-xs">GeeksforGeeks, W3schools, Youtube, College.</p>
+                            <p className="text-xs">GeeksforGeeks, Codecademy, LetsUpgrade, Great Learning</p>
                         </div>
                         <div className="box-achiv">
                             <i className="fas fa-graduation-cap bg-yellow-400"></i>
                             <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">2021</span>
                             <h3 className="text-base font-bold py-2">CSS Course</h3>
-                            <p className="text-xs">GeeksforGeeks, W3schools, Youtube, College</p>
+                            <p className="text-xs">GeeksforGeeks, Codecademy, LetsUpgrade, EDUCBA</p>
                         </div>
                         <div className="box-achiv">
                             <i className="fas fa-graduation-cap bg-yellow-400"></i>
                             <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">2022</span>
                             <h3 className="text-base font-bold py-2">React JS(Beg.)</h3>
-                            <p className="text-xs">W3schools, Youtube, College</p>
+                            <p className="text-xs">Linkedin Learning, Great Learning, Codecademy</p>
                         </div>
                         <div className="box-achiv">
                             <i className="fas fa-graduation-cap bg-yellow-400"></i>
                             <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">2022</span>
                             <h3 className="text-base font-bold py-2">Tailwind CSS</h3>
-                            <p className="text-xs">Tailwind css, Youtube, College</p>
+                            <p className="text-xs">Linkedin Learning, Mindluster, Tailwind.css</p>
                         </div>
                         <div className="box-achiv">
                             <i className="fas fa-graduation-cap bg-yellow-400"></i>
                             <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">2022</span>
                             <h3 className="text-base font-bold py-2">Bootstrap(Beg.)</h3>
-                            <p className="text-xs">Bootstrap, Youtube, College</p>
+                            <p className="text-xs">LetsUpgrade, Youtube, Bootstrap.com</p>
                         </div>
                     </div>
                 </div>
