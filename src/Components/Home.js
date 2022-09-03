@@ -17,9 +17,9 @@ function Home({ showMenu, setShowMenu }) {
                             dolores ullam. Magnam natus ipsa repellendus ex aspernatur hic illo esse ea beatae? Aperiam,
                             consequuntur dignissimos.</p>
                         <div className="mb-7 ">
-                            <a href='https://www.linkedin.com/in/devmithlesh' target="_blank" className="text-xl mr-2 ml-1 hover:text-blue-500"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href='https://github.com/devmithlesh' target="_blank" className="text-xl mx-2 hover:text-gray-400"><i class="fa-brands fa-github"></i></a>
-                            <a href='https://www.instagram.com/mithlesh_khanna/?hl=en' target="_blank" className="text-xl mx-2 hover:text-pink-500"><i class="fa-brands fa-instagram"></i></a>
+                            <a href='https://www.linkedin.com/in/devmithlesh' target="_blank" rel="noopener noreferrer" className="text-xl mr-2 ml-1 hover:text-blue-500"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href='https://github.com/devmithlesh' target="_blank" rel="noopener noreferrer" className="text-xl mx-2 hover:text-gray-400"><i class="fa-brands fa-github"></i></a>
+                            <a href='https://www.instagram.com/mithlesh_khanna/?hl=en' target="_blank" rel="noopener noreferrer" className="text-xl mx-2 hover:text-pink-500"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                         <a href="#about" className="py-2 px-4 bg-gray-800 rounded-full text-gray-100 hover:bg-yellow-400 text-sm">About Me<i
                             className="fas fa-user text-gray-100 ml-2"></i></a>

@@ -21,36 +21,36 @@ function Achivements() {
                     <div className="w-full h-px bg-gray-800"></div>
                     <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10">
                         <div>
-                            <img src={img7} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img7} target="_blank" className="text-xs text-gray-300 border-p">HTML Workshop for 8 Weeks Cert.</a>
+                            <img src={img7} alt="html" className="bg-gray-200 py-1 px-1 img-box" />
+                            <a href={img7} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">HTML Workshop for 8 Weeks Cert.</a>
                         </div>
                         <div>
-                            <img src={img8} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img8} target="_blank" className="text-xs text-gray-300 border-p">Completed the CSS for 1 Week.</a>
+                            <img src={img8} alt="css" className="bg-gray-200 py-1 px-1 img-box" />
+                            <a href={img8} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">Completed the CSS for 1 Week.</a>
                         </div>
                         <div>
-                            <img src={img9} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img9} target="_blank" className="text-xs text-gray-300 border-p">Introduction to JavaScript.</a>
+                            <img src={img9} alt="javascript" className="bg-gray-200 py-1 px-1 img-box" />
+                            <a href={img9} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">Introduction to JavaScript.</a>
                         </div>
                         <div>
-                            <img src={img10} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img10} target="_blank" className="text-xs text-gray-300 border-p">Built Responsive Website.</a>
+                            <img src={img10} alt="res-website" className="bg-gray-200 py-1 px-1 img-box" />
+                            <a href={img10} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">Built Responsive Website.</a>
                         </div>
                         <div>
-                            <img src={img13} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img13} target="_blank" className="text-xs text-gray-300 border-p">Frontend Fundamentals</a>
+                            <img src={img13} alt="frontend" className="bg-gray-200 py-1 px-1 img-box" />
+                            <a href={img13} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">Frontend Fundamentals</a>
                         </div>
                         <div>
-                            <img src={img16} alt="" className="bg-gray-200 img-box" />
-                            <a href={img16} target="_blank" className="text-xs text-gray-300 border-p">React JS Beginner Level</a>
+                            <img src={img16} alt="Reactjs" className="bg-gray-200 img-box" />
+                            <a href={img16} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">React JS Beginner Level</a>
                         </div>
                         <div>
-                            <img src={img11} alt="" className="bg-gray-200 img-box" />
-                            <a href={img11} target="_blank" className="text-xs text-gray-300 border-p">Tailwind css</a>
+                            <img src={img11} alt="tailwind css" className="bg-gray-200 img-box" />
+                            <a href={img11} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">Tailwind css</a>
                         </div>
                         <div>
-                            <img src={img12} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href={img12} target="_blank" className="text-xs text-gray-300 border-p">GitHub</a>
+                            <img src={img12} alt="github" className="bg-gray-200 py-1 px-1 img-box" />
+                            <a href={img12} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">GitHub</a>
                         </div>
                     </div>
                     {/* hidden Achivements */}
@@ -63,20 +63,20 @@ function Achivements() {
                     {
                         !hiddenAch ? <div className='grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 pt-10 lg:grid-cols-4 gap-8 w-full '>
                             <div>
-                                <img src={img17} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                                <a href={img12} target="_blank" className="text-xs text-gray-300 border-p">GitHub</a>
+                                <img src={img17} alt="Github" className="bg-gray-200 py-1 px-1 img-box" />
+                                <a href={img17} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">HTML & CSS</a>
                             </div>
                             <div>
-                                <img src={img18} alt="" className="bg-gray-200 img-box" />
-                                <a href={img11} target="_blank" className="text-xs text-gray-300 border-p">Tailwind css</a>
+                                <img src={img18} alt="tailwind" className="bg-gray-200 img-box" />
+                                <a href={img18} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">JavaScript & Reactjs</a>
                             </div>
                             <div>
                                 <img src={img19} alt="" className="bg-gray-200 img-box" />
-                                <a href={img11} target="_blank" className="text-xs text-gray-300 border-p">Tailwind css</a>
+                                <a href={img19} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">Reactjs Beginners</a>
                             </div>
                             <div>
                                 <img src={img20} alt="" className="bg-gray-200 img-box" />
-                                <a href={img11} target="_blank" className="text-xs text-gray-300 border-p">Tailwind css</a>
+                                <a href={img20} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-300 border-p">Tailwind css</a>
                             </div>
                         </div> : null
                     }
