@@ -6,6 +6,7 @@ import img5 from '../Images/5.jpg';
 import img6 from '../Images/6.png';
 import img7 from '../Images/7.png';
 import img8 from '../Images/8.png';
+import img9 from '../Images/9.jpg';
 import React, { useState } from 'react';
 function Projects() {
     const [proshow, setshow] = useState(true)
@@ -16,6 +17,14 @@ function Projects() {
                     <h1 className="text-3xl font-bold text-gray-100 text-center mb-1"><span className="text-yellow-400">My</span> Projects</h1>
                     <div className="w-full h-px bg-gray-800"></div>
                     <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10">
+                        <div>
+                            <img src={img7} alt="" className="bg-gray-200 py-1 px-1 img-box" />
+                            <a href="https://foot-by-foot-project.netlify.app/" className="text-xs text-gray-300 border-p" target="_blank">Foot By Foot</a>
+                        </div>
+                        <div>
+                            <img src={img6} alt="potfoliyo-mithlesh" className="bg-gray-200 py-1.5 px-1 img-box" />
+                            <a href="https://food-ordering-hub-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p " target="_blank">Food Ordering View</a>
+                        </div>
                         <div>
                             <img src={img1} alt="Dribble Desigen" className="bg-gray-200 py-1 px-1 img-box" />
                             <a href="https://fervent-fermi-c83da0.netlify.app" className="text-xs text-gray-300 border-p" target="_blank">Clone of Tailblocks Desigen</a>
@@ -37,18 +46,11 @@ function Projects() {
                             <a href="https://adoring-ptolemy-0c210a.netlify.app" className="text-xs text-gray-300 border-p" target="_blank">Clone of Microsoft Desigen</a>
                         </div>
                         <div>
-                            <img src={img6} alt="potfoliyo-mithlesh" className="bg-gray-200 py-1.5 px-1 img-box" />
-                            <a href="https://food-ordering-hub-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p " target="_blank">First Potfoliyo</a>
-                        </div>
-                        <div>
-                            <img src={img7} alt="" className="bg-gray-200 py-1 px-1 img-box" />
-                            <a href="https://foot-by-foot-project.netlify.app/" className="text-xs text-gray-300 border-p" target="_blank">Foot By Foot</a>
-                        </div>
-                        <div>
                             <img src={img8} alt="" className="bg-gray-200 py-1 px-1 img-box" />
                             <a href="https://house-rental-website-by-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p" target="_blank">Rentail website</a>
                         </div>
                     </div>
+                    {/* hidden show project start */}
                     <button onClick={() => setshow(!proshow)} className="w-full 
                     bg-gray-800 text-left text-yellow-400 pl-2 py-1 text-sm mt-4 ">
                         {proshow ? <p className='text-gray-100 '>
@@ -58,12 +60,12 @@ function Projects() {
                     {
                         !proshow ? <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10">
                             <div>
-                                <img src={img5} alt="Microsoft-design" className="bg-gray-200 py-1 px-1 img-box" />
-                                <a href="https://adoring-ptolemy-0c210a.netlify.app" className="text-xs text-gray-300 border-p" target="_blank">Clone of Microsoft Desigen</a>
+                                <img src={img9} alt="Microsoft-design" className="bg-gray-200 py-2 px-1 img-box" />
+                                <a href="https://news-india-by-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p" target="_blank">Clone of Microsoft Desigen</a>
                             </div>
                             <div>
                                 <img src={img6} alt="potfoliyo-mithlesh" className="bg-gray-200 py-1.5 px-1 img-box" />
-                                <a href="https://food-ordering-hub-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p " target="_blank">First Potfoliyo</a>
+                                <a href="https://food-ordering-hub-mithlesh.netlify.app/" className="text-xs text-gray-300 border-p " target="_blank">Food Ordering View</a>
                             </div>
                             <div>
                                 <img src={img7} alt="" className="bg-gray-200 py-1 px-1 img-box" />

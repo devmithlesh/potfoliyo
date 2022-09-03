@@ -3,7 +3,7 @@ function Home({ showMenu, setShowMenu }) {
     return (
         <div className={Styles}>
             <section className="bg-gray-900 text-gray-100 " id="home-1">
-                <div className="container mx-auto py-32">
+                <div className="container mx-auto pt-24 md:pt-32 pb-44 md:pb-32">
                     <div
                         className="text-gray-100 text-xl fixed right-4 top-4  block  
                     md:hidden lg:hidden z-50" onClick={() => setShowMenu(!showMenu)}> {showMenu === true ? <i className="fas fa-window-close"></i> : <i class="fa-solid fa-bars"></i>}</div>

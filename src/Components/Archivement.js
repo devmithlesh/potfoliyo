@@ -6,6 +6,10 @@ import img11 from '../Images/11.jpg';
 import img12 from '../Images/12.jpg';
 import img13 from '../Images/13.jpeg';
 import img16 from '../Images/16.jpg';
+import img17 from '../Images/11225.jpg'
+import img18 from '../Images/11226.jpg'
+import img19 from '../Images/11227.jpg'
+import img20 from '../Images/11228.jpg'
 import React, { useState } from 'react';
 function Achivements() {
     const [hiddenAch, sethiddenAch] = useState(true)
@@ -59,19 +63,19 @@ function Achivements() {
                     {
                         !hiddenAch ? <div className='grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 pt-10 lg:grid-cols-4 gap-8 w-full '>
                             <div>
-                                <img src={img12} alt="" className="bg-gray-200 py-1 px-1 img-box" />
+                                <img src={img17} alt="" className="bg-gray-200 py-1 px-1 img-box" />
                                 <a href={img12} target="_blank" className="text-xs text-gray-300 border-p">GitHub</a>
                             </div>
                             <div>
-                                <img src={img11} alt="" className="bg-gray-200 img-box" />
+                                <img src={img18} alt="" className="bg-gray-200 img-box" />
                                 <a href={img11} target="_blank" className="text-xs text-gray-300 border-p">Tailwind css</a>
                             </div>
                             <div>
-                                <img src={img11} alt="" className="bg-gray-200 img-box" />
+                                <img src={img19} alt="" className="bg-gray-200 img-box" />
                                 <a href={img11} target="_blank" className="text-xs text-gray-300 border-p">Tailwind css</a>
                             </div>
                             <div>
-                                <img src={img11} alt="" className="bg-gray-200 img-box" />
+                                <img src={img20} alt="" className="bg-gray-200 img-box" />
                                 <a href={img11} target="_blank" className="text-xs text-gray-300 border-p">Tailwind css</a>
                             </div>
                         </div> : null
