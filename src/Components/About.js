@@ -16,8 +16,7 @@ function About() {
                             <p className="my-4">Qualification<span className="text-yellow-400">: BCA</span></p>
                             <p className="my-4">Post<span className="text-yellow-400">: Front End Developer</span></p>
                             <p className="my-4 mb-6">Language<span className="text-yellow-400">: Hindi / Punjabi / English</span></p>
-                            <a href={Resume} target="_blank" rel="noopener noreferrer" className="py-2 px-4 bg-gray-800 rounded-full text-sm hover:bg-yellow-400 " >Download Resume <i
-                                className="fas fa-arrow-to-bottom"></i></a>
+                            <a href={Resume} target="_blank" rel="noopener noreferrer" className="py-2 px-4 bg-gray-800 rounded-full text-sm hover:bg-yellow-400 " >Download Resume <i className="fa-solid fa-download"></i></a>
                         </div>
                         <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 sm:grid-rows-2 md:grid-rows-2 lg:grid-rows-2 grid-rows-1 gap-8 text-center">
                             <div className="bg-gray-800 py-12 px-4 flex flex-col justify-center items-center rounded transform hover:scale-125 ease-out duration-700 ">
