@@ -29,9 +29,9 @@ function Contact() {
 
     return (
         <div>
-            <section className="bg-gray-900 text-gray-100" id="contact">
+            <section id="contact">
                 <div className="container mx-auto px-10 sm:pl-0 md:pl-80 lg:md:pl-80 py-28">
-                    <h1 className="text-3xl font-bold text-gray-100 text-center"><span className="text-yellow-400">Contact</span> us</h1>
+                    <h1 className="text-3xl font-bold  text-center"><span className="text-yellow-400">Contact</span> us</h1>
                     <div className="w-full h-px bg-gray-800"></div>
                     <div className="flex justify-between sm:pt-10 md:pt-10 lg:pt-10 pt-10 flex-col sm:flex-row md:flex-row lg:flex-row">
                         <div className="mb-10 sm:w-1/2 md:w-1/2 lg:w-1/2">

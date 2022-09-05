@@ -2,12 +2,12 @@ import Resume from '../Images/Resume.pdf';
 function About() {
     return (
         <div>
-            <section className="bg-gray-900 text-gray-100" id="about">
+            <section id="about">
                 <div className="container mx-auto px-10 sm:pl-0 md:pl-80 lg:md:pl-80 flex justify-center flex-col py-32">
-                    <h1 className="text-3xl font-bold text-gray-100 text-center"><span className="text-yellow-400">About</span> Me</h1>
+                    <h1 className="text-3xl font-bold text-center"><span className="text-yellow-400">About</span> Me</h1>
                     <div className="w-full h-px bg-gray-800"></div>
                     {/* up scroll */}
-                    {/* <a href="#home-1" className="absolute text-3xl right-12 bottom-12 text-gray-100 z-40">
+                    {/* <a href="#home-1" className="absolute text-3xl right-12 bottom-12  z-40">
                         <i className="fas fa-chevron-circle-up fixed"></i></a> */}
                     <div className="flex justify-between sm:pt-10 md:pt-10 lg:pt-10 pt-5 flex-col sm:flex-row md:flex-row lg:flex-row">
                         <div className="mb-10">

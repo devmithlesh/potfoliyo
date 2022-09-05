@@ -2,6 +2,12 @@
   background-color: #f9ca24;
 }
 
+/* background color and text-color all screen */
+#root {
+  background-color: rgb(17 24 39);
+  color: rgb(243 244 246);
+}
+
 /* image-logo-menu */
 .image-logo-menu {
   border: 4px solid #f9ca24;

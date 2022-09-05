@@ -6,7 +6,7 @@ function ProCard(props) {
             <div>
                 <img src={props.image} alt={props.alts} className="bg-gray-200 py-1 px-1 img-box" />
                 <a href={props.weblink}
-                    className="text-xs text-gray-300 border-p cursor-pointer " target="_blank"
+                    className="text-xs border-p cursor-pointer " target="_blank"
                     rel="noopener noreferrer">{props.title}</a>
             </div>
         </>

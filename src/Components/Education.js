@@ -47,9 +47,9 @@ const Edudata = [{
 function Education() {
     return (
         <div>
-            <section className="bg-gray-900 text-gray-100" id="education">
+            <section id="education">
                 <div className="container mx-auto py-28 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
-                    <h1 className="text-3xl font-bold text-gray-100 text-center mb-1"><span className="text-yellow-400">My</span> Education</h1>
+                    <h1 className="text-3xl font-bold text-center mb-1"><span className="text-yellow-400">My</span> Education</h1>
                     <div className="w-full h-px bg-gray-800"></div>
                     <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8">
 

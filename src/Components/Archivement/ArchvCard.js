@@ -6,7 +6,7 @@ function ArchvCard(props) {
             <div>
                 <img src={props.image} alt={props.alts} className="bg-gray-200 py-1 px-1 img-box" />
                 <a href={props.image}
-                    className="text-xs text-gray-300 border-p" target="_blank"
+                    className="text-xs border-p" target="_blank"
                     rel="noopener noreferrer">{props.title}</a>
             </div>
         </>

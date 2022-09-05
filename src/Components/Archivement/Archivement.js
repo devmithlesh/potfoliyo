@@ -36,9 +36,9 @@ function Achivements() {
     const [proshow, setshow] = useState(true)
     return (
         <div>
-            <section className="bg-gray-900 text-gray-100" id="Achivements">
+            <section id="Achivements">
                 <div className="container mx-auto py-28 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
-                    <h1 className="text-3xl font-bold text-gray-100 text-center mb-1"><span className="text-yellow-400">My</span> Achivements</h1>
+                    <h1 className="text-3xl font-bold text-center mb-1"><span className="text-yellow-400">My</span> Achivements</h1>
                     <div className="w-full h-px bg-gray-800"></div>
                     <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10">
 
@@ -58,8 +58,8 @@ function Achivements() {
                     </div>
                     {/* hidden show project start */}
                     <button onClick={() => setshow(!proshow)} className="w-full bg-gray-800 text-left text-yellow-400 pl-2 py-1 text-sm mt-4 ">
-                        {proshow ? <p className='text-gray-100 '>
-                            <span className='text-yellow-400'>Show</span> More <i className="fa-sharp fa-solid fa-arrow-up"></i></p> : <p className='text-gray-100'>
+                        {proshow ? <p>
+                            <span className='text-yellow-400'>Show</span> More <i className="fa-sharp fa-solid fa-arrow-up"></i></p> : <p>
                             <span className='text-yellow-400'>Hidden</span> More <i className="fa-solid fa-arrow-down"></i></p>}
                     </button>
                     <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10 ">
