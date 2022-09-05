@@ -29,7 +29,7 @@ const Pdata = [
   {
     image: img2,
     alts: "Project",
-    weblink: "https://pensive-turing-10a23d.netlify.app",
+    weblink: "https://6315ea1d4f16cf4e880a15cd--pensive-turing-10a23d.netlify.app/",
     title: "Clone of Netflex Desigen"
   },
   {
