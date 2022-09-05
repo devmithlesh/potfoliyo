@@ -1,4 +1,4 @@
-import Archvdata from './Archvdata';
+import Adata from './Archvdata';
 import ArchvCard from './ArchvCard';
 import React, { useState } from 'react';
 
@@ -43,7 +43,7 @@ function Achivements() {
                     <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10">
 
                         {
-                            Archvdata.map((val, ind) => {
+                            Adata.map((val, ind) => {
                                 return (
                                     <ArchvCard
                                         key={ind}

@@ -7,7 +7,7 @@ import img6 from '../../Images/6.png';
 import img7 from '../../Images/7.png';
 import img8 from '../../Images/8.png';
 
-export default [
+const Pdata = [
   {
     image: img7,
     alts: "Project",
@@ -60,3 +60,4 @@ export default [
 
 ]
 
+export default Pdata

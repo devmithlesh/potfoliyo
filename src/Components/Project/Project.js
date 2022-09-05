@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ProCard from './ProCard';
-import Prodata from './Prodata';
+import Pdata from './Prodata';
 
 //==============hidden & show data============
 import img5 from '../../Images/5.jpg';
@@ -46,7 +46,7 @@ function Projects() {
                     <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8 pt-10">
 
                         {
-                            Prodata.map((val, ind) => {
+                            Pdata.map((val, ind) => {
                                 return (
                                     <ProCard
                                         key={ind}

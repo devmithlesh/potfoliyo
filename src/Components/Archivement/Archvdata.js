@@ -8,7 +8,7 @@ import img13 from '../../Images/13.jpeg';
 import img16 from '../../Images/16.jpg';
 
 
-export default [
+const Adata = [
     {
         image: img7,
         alts: "HTML",
@@ -52,4 +52,4 @@ export default [
     }
 
 ]
-
+export default Adata
