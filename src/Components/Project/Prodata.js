@@ -11,7 +11,7 @@ const Pdata = [
   {
     image: img7,
     alts: "Project",
-    weblink: "https://foot-by-foot-project.netlify.app/",
+    weblink: "https://foot-by-foot-e-commerce.netlify.app/",
     title: "Foot By Foot"
   },
   {
@@ -29,32 +29,32 @@ const Pdata = [
   {
     image: img2,
     alts: "Project",
-    weblink: "https://6315ea1d4f16cf4e880a15cd--pensive-turing-10a23d.netlify.app/",
+    weblink: "https://clone-netflix-site.netlify.app/",
     title: "Clone of Netflex Desigen"
   },
   {
     image: img3,
     alts: "Project",
-    weblink: "https://frosty-rosalind-c7620e.netlify.app",
+    weblink: "https://clone-discord-website.netlify.app/",
     title: "Clone of Discord Desigen"
   },
   {
     image: img1,
     alts: "Project",
-    weblink: "https://fervent-fermi-c83da0.netlify.app",
+    weblink: "https://clone-dribble.netlify.app/",
     title: "Clone of Tailblocks Desigen"
   },
 
   {
     image: img4,
     alts: "Project",
-    weblink: "https://cranky-shockley-4144d7.netlify.app",
+    weblink: "https://linkedin-by-mithlesh.netlify.app/",
     title: "Clone of Linkedin Desigen"
   },
   {
     image: img5,
     alts: "Project",
-    weblink: "https://adoring-ptolemy-0c210a.netlify.app",
+    weblink: "https://clone-microsoft-web.netlify.app/",
     title: "Clone of Microsoft Desigen"
   }
 

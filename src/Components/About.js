@@ -1,4 +1,23 @@
 import Resume from '../Images/Resume.pdf';
+
+const Abdata = [
+    {
+        num: "0+",
+        title: "Year Of Experience"
+    },
+    {
+        num: "8+",
+        title: "Project Completed"
+    },
+    {
+        num: "0+",
+        title: "Happy Customers"
+    },
+    {
+        num: "10+",
+        title: "Certificates"
+    }
+]
 function About() {
     return (
         <div>
@@ -19,24 +38,20 @@ function About() {
                             <a href={Resume} target="_blank" rel="noopener noreferrer" className="py-2 px-4 bg-gray-800 rounded-full text-sm hover:bg-yellow-400 " >Download Resume <i className="fa-solid fa-download"></i></a>
                         </div>
                         <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 sm:grid-rows-2 md:grid-rows-2 lg:grid-rows-2 grid-rows-1 gap-8 text-center">
-                            <div className="bg-gray-800 py-12 px-4 flex flex-col justify-center items-center rounded transform hover:scale-125 ease-out duration-700 ">
-                                <span className="text-yellow-400 text-3xl">0+</span>
-                                <p className="text-sm">Year Of Experience</p>
-                            </div>
-                            <a href="#projects">
-                                <div className="bg-gray-800 py-12 px-4 flex flex-col justify-center items-center rounded transform hover:scale-125 ease-out duration-700 ">
-                                    <span className="text-yellow-400 text-3xl">8+</span>
-                                    <p className="text-sm">Projects Completed</p>
-                                </div>
-                            </a>
-                            <div className="bg-gray-800 py-12 px-4 flex flex-col justify-center items-center rounded transform hover:scale-125 ease-out duration-700 ">
-                                <span className="text-yellow-400 text-3xl">0+</span>
-                                <p className="text-sm">Happy Coustomers</p>
-                            </div>
-                            <a href="#Achivements"><div className="bg-gray-800 py-12 px-4 flex flex-col justify-center items-center rounded transform hover:scale-125 ease-out duration-700 ">
-                                <span className="text-yellow-400 text-3xl">10+</span>
-                                <p className="text-sm">Certificates</p>
-                            </div></a>
+                            {
+                                Abdata.map((val, ind) => {
+                                    return (
+                                        <a href="#projects">
+                                            <div className="bg-gray-800 py-12 px-4 flex flex-col justify-center items-center rounded transform hover:scale-110 ease-out duration-700 ">
+                                                <span className="text-yellow-400 text-3xl">{val.num}</span>
+                                                <p className="text-sm">{val.title}</p>
+                                            </div>
+                                        </a>
+                                    )
+                                })
+                            }
+
+
                         </div>
                     </div>
                 </div>

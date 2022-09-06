@@ -57,7 +57,7 @@ function Achivements() {
 
                     </div>
                     {/* hidden show project start */}
-                    <button onClick={() => setshow(!proshow)} className="w-full bg-gray-800 text-left text-yellow-400 pl-2 py-1 text-sm mt-4 ">
+                    <button onClick={() => setshow(!proshow)} className="w-full bg-gray-800 text-left pl-2 py-1 text-sm mt-4 ">
                         {proshow ? <p>
                             <span className='text-yellow-400'>Show</span> More <i className="fa-sharp fa-solid fa-arrow-up"></i></p> : <p>
                             <span className='text-yellow-400'>Hidden</span> More <i className="fa-solid fa-arrow-down"></i></p>}
