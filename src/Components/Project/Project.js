@@ -11,25 +11,25 @@ import img8 from '../../Images/8.png';
 const Prodata2 = [
     {
         image: img5,
-        alts: "Project",
+        alts: "Microsoft",
         weblink: "https://clone-microsoft-web.netlify.app/",
         title: "Clone of Microsoft Desigen"
     },
     {
         image: img6,
-        alts: "Project",
+        alts: "Food-ordring",
         weblink: "https://food-ordering-hub-mithlesh.netlify.app/",
         title: "Food Ordring Front View"
     },
     {
         image: img7,
-        alts: "Project",
+        alts: "Footbyfoot",
         weblink: "https://foot-by-foot-e-commerce.netlify.app/",
         title: "Foot By Foot"
     },
     {
         image: img8,
-        alts: "Project",
+        alts: "Rental",
         weblink: "https://house-rental-website-by-mithlesh.netlify.app/",
         title: "Rentail Website"
     }
