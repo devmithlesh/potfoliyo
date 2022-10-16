@@ -38,7 +38,7 @@ const Edudata = [
   },
   {
     Date: 2022,
-    Edu: "Bootstrap(Beg.)",
+    Edu: "Bootstrap",
     School: "LetsUpgrade, Youtube, Bootstrap.com",
   },
 ];
@@ -49,15 +49,15 @@ function Education() {
       <section id="education">
         <div className="container mx-auto py-28 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
           <h1 className="text-3xl font-bold text-center mb-1">
-            <span className="text-yellow-400">My</span> Education
+            <span className="yellow-rang">My</span> Education
           </h1>
           <div className="w-full h-px bg-gray-800"></div>
-          <div className="grid grid-flow-cols grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-8">
+          <div className="grid grid-flow-cols grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {Edudata.map((val, ind) => {
               return (
                 <div className="box-achiv" key={ind}>
-                  <i className="fas fa-graduation-cap bg-yellow-400"></i>
-                  <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">
+                  <i className="fas fa-graduation-cap bgcolor2"></i>
+                  <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full bgcolor">
                     {val.Date}
                   </span>
                   <h3 className="text-base font-bold py-2">{val.Edu}</h3>

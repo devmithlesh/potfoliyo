@@ -31,7 +31,7 @@ function Contact() {
       <section id="contact">
         <div className="container mx-auto px-10 sm:pl-0 md:pl-80 lg:md:pl-80 py-28">
           <h1 className="text-3xl font-bold  text-center">
-            <span className="text-yellow-400">Contact</span> us
+            <span className="yellow-rang">Contact</span> us
           </h1>
           <div className="w-full h-px bg-gray-800"></div>
           <div className="flex justify-between sm:pt-10 md:pt-10 lg:pt-10 pt-10 flex-col sm:flex-row md:flex-row lg:flex-row">
@@ -39,19 +39,19 @@ function Contact() {
             <div className="mb-10 sm:w-1/2 md:w-1/2 lg:w-1/2">
               <h1 className="mb-6 text-xl font-bold">CONTACT INFO</h1>
               <p className="my-4 flex text-sm">
-                <i className="fas fa-envelope mr-2 text-yellow-400 text-base"></i>
-                mithleshnirmal786123@gmail.com
+                <i className="fas fa-envelope mr-2 yellow-rang text-base"></i>
+                mithleshnirmal786@gmail.com
               </p>
               <p className="my-4 text-sm">
-                <i className="fas fa-mobile-alt text-yellow-400 text-lg mr-2"></i>
+                <i className="fas fa-mobile-alt yellow-rang text-lg mr-2"></i>
                 +918196****06
               </p>
               <p className="my-4 text-sm">
-                <i className="fas fa-phone text-yellow-400 text-lg mr-2"></i>
+                <i className="fas fa-phone yellow-rang text-lg mr-2"></i>
                 +111-101-3**1
               </p>
               <p className="my-4 text-sm">
-                <i className="fas fa-map-pin text-yellow-400 text-lg mr-2"></i>
+                <i className="fas fa-map-pin yellow-rang text-lg mr-2"></i>
                 Punjab, India 144001
               </p>
             </div>
@@ -88,10 +88,10 @@ function Contact() {
                 name="textBox"
                 required
               ></textarea>
-              <button className="text-xs py-2 px-4 bg-gray-800 rounded-full hover:bg-yellow-400">
+              <button className="text-xs py-2 px-4 bg-gray-800 rounded-full bgcolor">
                 Send <i className="fas fa-paper-plane"></i>
               </button>
-              <ToastContainer className="text-yellow-400" />
+              <ToastContainer className="yellow-rang" />
             </form>
           </div>
         </div>

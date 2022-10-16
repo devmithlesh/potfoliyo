@@ -5,7 +5,9 @@ import Archivement from "./Components/Archivement/Archivement";
 import Education from "./Components/Education";
 import Contactus from "./Components/Contactus";
 import Menu from "./Components/Menu";
+import Testimonial from "./Components/Testimonial";
 import React, { useState } from "react";
+import Footer from "./Components/Footer";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -20,7 +22,9 @@ function App() {
       <Project />
       <Archivement />
       <Education />
+      <Testimonial />
       <Contactus />
+      <Footer />
     </div>
   );
 }

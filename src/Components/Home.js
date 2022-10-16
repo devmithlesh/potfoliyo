@@ -1,7 +1,7 @@
-import Styles from "./Home.css";
+import "./Home.css";
 function Home({ showMenu, setShowMenu }) {
   return (
-    <div className={Styles}>
+    <>
       <section id="home-1">
         <div className="container mx-auto pt-24 md:pt-32 pb-44 md:pb-32 relative">
           <div
@@ -9,22 +9,21 @@ function Home({ showMenu, setShowMenu }) {
                     md:hidden lg:hidden z-50"
             onClick={() => setShowMenu(!showMenu)}
           >
-            {" "}
             {showMenu === true ? (
               <i className="fas fa-window-close"></i>
             ) : (
               <i className="fa-solid fa-bars"></i>
             )}
           </div>
-          <div className="px-10 sm:ml-10 lg: md:ml-10 lg:ml-10 ml-0 py-3 sm:pl-0 md:pl-80 lg:pl-80">
+          <div className="px-10 sm:ml-10 md:ml-10 ml-0 py-3 sm:pl-0 md:pl-72 lg:pl-80">
             <h2 className="text-xl">HI THERE !</h2>
             <h1 className="text-4xl my-2 font-bold">
-              I'M Mithlesh <span className="text-yellow-400">Nirmal</span>
+              I'M Mithlesh <span className="yellow-rang">Nirmal</span>
             </h1>
-            <h3 className="text-yellow-300 text-sm font-bold flex ">
+            <h3 className="yellow-rang text-sm font-bold flex ">
               Front End <p className="type-animation">Developer</p>
             </h3>
-            <p className="sm:pr-40 md:pr-40 lg:pr-40 mb-4 mt-2 leading-loose text-sm">
+            <p className="sm:pr-40 md:pr-28 lg:pr-40 mb-4 mt-2 leading-loose text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
               eveniet dicta officiis quos error, dolores ullam. Magnam natus
               ipsa repellendus ex aspernatur hic illo esse ea beatae? Aperiam,
@@ -35,32 +34,32 @@ function Home({ showMenu, setShowMenu }) {
                 href="https://www.linkedin.com/in/devmithlesh"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl mr-2 ml-1 hover:text-blue-500"
+                className="text-xl mr-2 ml-1"
               >
-                <i className="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin hover:text-blue-500"></i>
               </a>
               <a
                 href="https://github.com/devmithlesh"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl mx-2 hover:text-gray-400"
+                className="text-xl mx-2"
               >
-                <i className="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github hover:text-gray-400"></i>
               </a>
               <a
-                href="https://www.instagram.com/mithlesh_khanna/?hl=en"
+                href="https://www.instagram.com/dev_mithlesh/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl mx-2 hover:text-pink-500"
+                className="text-xl mx-2"
               >
-                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram hover:text-pink-500"></i>
               </a>
             </div>
             <a
-              href="#about"
-              className="py-2 px-4 bg-gray-800 rounded-full hover:bg-yellow-400 text-sm"
+              href="tel:+918196969106"
+              className="py-2 px-4 bg-gray-800 rounded-full bgcolor text-sm"
             >
-              About Me<i className="fas fa-user ml-2"></i>
+              Hire Me<i className="fas fa-user ml-2"></i>
             </a>
           </div>
           {/*============ up arrouw ==============*/}
@@ -72,7 +71,7 @@ function Home({ showMenu, setShowMenu }) {
           </a>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 export default Home;
