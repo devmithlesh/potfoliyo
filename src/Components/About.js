@@ -8,6 +8,7 @@ const Abdata = [
   {
     num: "8+",
     title: "Project Completed",
+    loc: "#projects",
   },
   {
     num: "0+",
@@ -16,12 +17,13 @@ const Abdata = [
   {
     num: "10+",
     title: "Certificates",
+    loc: "#Achivements",
   },
 ];
 function About() {
   return (
     <>
-      <section id="about">
+      <section id="about" className="js-scroll fade-in-bottom ">
         <div className="container mx-auto px-10 sm:pl-0 md:pl-80 lg:md:pl-80 flex justify-center flex-col py-32">
           <h1 className="text-3xl font-bold text-center">
             <span className="yellow-rang">About</span> Me
@@ -58,7 +60,7 @@ function About() {
             <div className="grid grid-flow-row sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 sm:grid-rows-2 md:grid-rows-2 lg:grid-rows-2 grid-rows-1 gap-8 text-center">
               {Abdata.map((val, ind) => {
                 return (
-                  <a href="#projects" key={ind}>
+                  <a href={val.loc} key={ind}>
                     <div className="bg-gray-800 py-12 md:py-8 lg:py-12 px-4 flex flex-col justify-center items-center rounded transform hover:scale-110 ease-out duration-700 ">
                       <span className="yellow-rang text-3xl">{val.num}</span>
                       <p className="text-sm">{val.title}</p>

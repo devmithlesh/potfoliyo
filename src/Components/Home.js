@@ -24,10 +24,9 @@ function Home({ showMenu, setShowMenu }) {
               Front End <p className="type-animation">Developer</p>
             </h3>
             <p className="sm:pr-40 md:pr-28 lg:pr-40 mb-4 mt-2 leading-loose text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              eveniet dicta officiis quos error, dolores ullam. Magnam natus
-              ipsa repellendus ex aspernatur hic illo esse ea beatae? Aperiam,
-              consequuntur dignissimos.
+              Looking for an opportunity to work in a challenging position to
+              prove my computer science skills and utilize my knowledge and
+              intelligence in the growth of organization.
             </p>
             <div className="mb-7 ">
               <a

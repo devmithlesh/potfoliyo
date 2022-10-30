@@ -57,7 +57,7 @@ function Education() {
               return (
                 <div className="box-achiv" key={ind}>
                   <i className="fas fa-graduation-cap bgcolor2"></i>
-                  <span className="text-xs font-bold text-gray-400 py-1 px-4 bg-gray-800 rounded-full bgcolor">
+                  <span className="text-xs font-bold text-gray-100 py-1 px-4 bg-gray-800 rounded-full bgcolor">
                     {val.Date}
                   </span>
                   <h3 className="text-base font-bold py-2">{val.Edu}</h3>

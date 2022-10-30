@@ -17,6 +17,16 @@ function ProCard(props) {
           />
           {props.title}
         </a>
+        <div className="mb-4 mt-4 ">
+          <a
+            href={props.button}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs view_code"
+          >
+            View Code
+          </a>
+        </div>
       </div>
     </>
   );

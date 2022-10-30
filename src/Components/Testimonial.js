@@ -28,7 +28,7 @@ function Testimonial() {
     <>
       <section className="container mx-auto py-28 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
         <h1 className="text-3xl font-bold text-center">
-          <span className="yellow-rang">Testi</span> monial
+          <span className="yellow-rang">Testi</span>monial
         </h1>
         <div className="w-full h-px bg-gray-800 "></div>
         <div className="your-class mt-10 ">

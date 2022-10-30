@@ -3,17 +3,17 @@ import ProCard from "./ProCard";
 import Pdata from "./Prodata";
 
 //==============hidden & show data============
-import img5 from "../../Images/5.jpg";
+import img2 from "../../Images/2.jpg";
 import img6 from "../../Images/6.png";
 import img7 from "../../Images/7.png";
 import img8 from "../../Images/8.png";
 
 const Prodata2 = [
   {
-    image: img5,
-    alts: "Microsoft",
-    weblink: "https://clone-microsoft-web.netlify.app/",
-    title: "Clone of Microsoft Desigen",
+    image: img2,
+    alts: "Netflix",
+    weblink: "https://magical-cactus-f06ddb.netlify.app/",
+    title: "Clone of Netflex Desigen",
   },
   {
     image: img6,
@@ -40,7 +40,7 @@ function Projects() {
   return (
     <div>
       <section id="projects">
-        <div className="container mx-auto py-28 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
+        <div className="container mx-auto py-16 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
           <h1 className="text-3xl font-bold text-center mb-1">
             <span className="yellow-rang">My</span> Projects
           </h1>
@@ -57,6 +57,7 @@ function Projects() {
                   alts={val.alts}
                   title={val.title}
                   weblink={val.weblink}
+                  button={val.button}
                 />
               );
             })}

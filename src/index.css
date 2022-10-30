@@ -1,6 +1,6 @@
 /* ========= CUSTOME SCROLL BAR =========== */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(315deg, #f1edc5, #cce206);
+  background: linear-gradient(315deg, #f1edc5, var(--yellowcolor));
 }
 ::-webkit-scrollbar {
   width: 15px;
@@ -83,7 +83,7 @@
   content: "";
   position: absolute;
   inset: -10px 40px;
-  background: linear-gradient(315deg, #f1edc5, #cce206);
+  background: linear-gradient(315deg, #f1edc5, var(--yellowcolor));
   transition: 0.5s;
   animation: animate 4s linear infinite;
 }
@@ -133,4 +133,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* ========== Project Section view_code Button ==============*/
+.view_code {
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.view_code:hover {
+  background: var(--yellowcolor);
+  transition: 0.5s;
 }

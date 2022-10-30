@@ -36,7 +36,7 @@ function Achivements() {
   return (
     <div>
       <section id="Achivements">
-        <div className="container mx-auto py-28 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
+        <div className="container mx-auto py-20 px-10 sm:pl-0 md:pl-80 lg:md:pl-80">
           <h1 className="text-3xl font-bold text-center mb-1">
             <span className="yellow-rang">My</span> Achivements
           </h1>
