@@ -1,4 +1,3 @@
-import Resume from "../Images/Resume.pdf";
 
 const Abdata = [
   {
@@ -49,7 +48,7 @@ function About() {
                 <span className="yellow-rang">: Hindi / Punjabi / English</span>
               </p>
               <a
-                href={Resume}
+                href="https://devmithlesh-resume.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-2 px-4 bg-gray-800 rounded-full text-sm bgcolor"
