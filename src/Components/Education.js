@@ -52,7 +52,7 @@ function Education() {
             <span className="yellow-rang">My</span> Education
           </h1>
           <div className="w-full h-px bg-gray-800"></div>
-          <div className="grid grid-flow-cols grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div className="grid grid-flow-cols grid-cols-1 md:grid-cols-4 gap-8">
             {Edudata.map((val, ind) => {
               return (
                 <div className="box-achiv" key={ind}>
