@@ -82,6 +82,11 @@ function Contact() {
                 className="bg-gray-800 my-3 w-full py-2 px-2 text-xs"
                 name="phoneno"
               />
+              <input
+                type="file"
+                name="file"
+                className="bg-gray-800 my-3 w-full py-2 px-2 text-xs"
+              />
               <textarea
                 placeholder="Message"
                 className="bg-gray-800 my-3 w-full py-2 px-2 text-xs h-20"
