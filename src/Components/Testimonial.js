@@ -43,7 +43,7 @@ function Testimonial() {
                   alt="review"
                   className="w-20 h-20 rounded-full bg-gray-200 mx-auto"
                 />
-                <blockquote className="w-80 mx-auto text-base text-center">
+                <blockquote className="md:w-80 mx-auto text-base text-center">
                   {val.text}
                 </blockquote>
                 <div className="text-center space-x-2">
